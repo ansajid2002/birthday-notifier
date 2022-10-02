@@ -1,0 +1,119 @@
+body {
+    
+}
+.formBox {
+
+}
+.formclass {
+    border:3px solid black;
+
+   
+    color:rgb(201, 226, 235);
+    width:80vw;
+    padding:1.5rem;
+    margin:0 auto;
+    margin-top:2rem;
+}
+
+.heading {
+    font-size:2.2rem;
+    
+    margin-bottom:.5rem;
+
+}
+.info {
+    font-size:1.3rem;
+    margin-top:0;
+    margin-bottom:3rem;
+}
+.toggle {
+    color:rgb(9, 131, 231);
+    font-style:italic;
+    text-decoration: underline;
+}
+.account-created {
+    color:rgb(111, 233, 111);
+    font-size:1.5rem;
+    font-weight: bold;
+}
+.inputs {
+    width:60vw;
+    height:2rem;
+    border:2px solid rgb(199, 32, 143);
+    background-color: rgb(194, 223, 233);
+    
+    border-radius: 10px;
+    margin:1rem 0 1rem 0;
+    padding-left:1rem;
+    display:block;
+    font-size: 1rem;
+    letter-spacing: .03rem;
+}
+@media screen and (min-width:540px) {
+    .formclass {
+        max-width:500px;
+        
+    }
+    .inputs {
+        width:380px;
+    }
+}
+.submitBtn {
+    padding:.7rem;
+    margin-top:1.5rem;
+    display:block;
+    font-size:1rem;
+    font-weight:bold;
+    background:rgb(189, 20, 118);
+    color:lightblue;
+    border:none;
+    border-radius: 10px;
+    border:2px solid transparent;
+}
+.submitBtn:hover {
+    background:rgb(189,20,118);
+    color:rgb(9, 131, 231);
+    border:2px solid rgb(9, 131, 231);
+    
+}
+.continue {
+    font-size:1.2rem;
+    margin-top:1.5rem;
+    margin-bottom: .5rem;
+    color:lightblue;
+}
+.sicon {
+    background-color: transparent;
+    margin-right:1rem;
+    border:none;
+
+
+    
+}
+
+.icon {
+    width:40px;
+    height:40px;
+    padding:.5rem;
+}
+.icon:hover {
+    background: rgb(12, 11, 11);
+    border-radius: 10px;
+}
+.labels {
+    font-size: 1.2rem;
+    
+    
+    
+}
+.labin {
+    border:1px solid gray;
+    margin-bottom:1rem;
+    border-radius: 10px;
+    padding-left:15px;
+}
+.up {
+    margin-top:0;
+    padding-top:0;
+    margin-bottom: 2rem;
+}
